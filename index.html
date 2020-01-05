@@ -35,7 +35,7 @@
         this.media.pause();
       };
 
-      MediaPlayer.prototype.togglePlay = function() {
+      MediaPlayer.prototype.pressPlay = function() {
         if (this.media.paused) {
           this.play();
         } else {
@@ -47,7 +47,7 @@
       const player = new MediaPlayer({ el: video });
 
       const button = document.querySelector('button');
-      button.onclick = () => player.togglePlay();
+      button.onclick = () => player.pressPlay();
     </script>
   </body>
 </html>

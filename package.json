@@ -12,5 +12,14 @@
   },
   "devDependencies": {
     "live-server": "^1.2.1"
-  }
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carlos1989oso/Javascript-profesional.git"
+  },
+  "bugs": {
+    "url": "https://github.com/carlos1989oso/Javascript-profesional/issues"
+  },
+  "homepage": "https://github.com/carlos1989oso/Javascript-profesional#readme"
 }
